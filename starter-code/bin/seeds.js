@@ -3,7 +3,7 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 const Celebrity = require("../models/celebrity");
 
-mongoose.connect(`mongodb://localhost/celebrities`);
+mongoose.connect(`mongodb://localhost/celebs`);
 
 const celebrities = [
   {
